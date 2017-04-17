@@ -76,3 +76,24 @@ git pull works as fwd or recursive merge
 if merge issue arise resolve the issue and go ahead with #git commit -a
 
 Done with level4 in Git real
+
+
+Started Level5 and Remote branching
+
+git checkout -b Branch2 #creates and switch 2 branch
+git push origin Branch2 #links globally
+git push origin Branch2 #push to the branch Branch2
+git pull  #  to access remote branch
+git branch #local branches
+git branch -r #list all remote branches
+git remote show origin #shows all remote branches and their refs
+git push origin :Branch2 #deltes remote branch
+git branch -d Brnach2 #removes locally
+git branch -D Branch2 #if branch is not ully merged use this
+git remote prune origin # to clean delted remote branche
+
+#started tagging heres
+git tag #list all tags
+git tag -a <tagname> -m <tag description> #creating tag
+git push --tags #pushing tags
+
