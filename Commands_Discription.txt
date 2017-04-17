@@ -1,0 +1,18 @@
+
+git help #provide basic help
+git help cmd #provide help for cmd
+git config --global user.name ritesh kumar #sets user name globally
+git config --global user.email riteshkumar.bhumca2012@gmail.com #sets user email globally
+git conifg --global color.ui true
+#sets color display
+
+
+
+git status #for status
+git add <filename> #adding file
+git log #for history
+
+
+git commit -m msg #commit your changes
+
+Done with Level1 in Git Real
