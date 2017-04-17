@@ -60,3 +60,6 @@ git merge Branch1 #source Branch
 Fast forward means no work since branching on master
 recursive mearge means Both have changed their Fields
 
+
+git branch -d <bname> #deltes a branch
+
