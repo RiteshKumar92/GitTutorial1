@@ -54,3 +54,9 @@ git branch <bname>
 git checkout <bname>
 git branch #list all branches
 git checkout -b <bname> #combination of 1 and 2 
+merging a branch
+git checkout master #destination branch
+git merge Branch1 #source Branch
+Fast forward means no work since branching on master
+recursive mearge means Both have changed their Fields
+
