@@ -51,4 +51,79 @@ Untracked files:
 	[31mdemo.txt[m
 
 no changes added to commit (use "git add" and/or "git commit -a")
+bash-3.2$ git add demo.txt 
+bash-3.2$ git add modifie[K[K[K[K[K[K[KLogs 
+warning: CRLF will be replaced by LF in Logs.
+The file will have its original line endings in your working directory.
+bash-3.2$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   Logs[m
+	[32mnew file:   demo.txt[m
+
+bash-3.2$ git commit -m "Added demo.txt and modified Logs"
+[master 09e277e] Added demo.txt and modified Logs
+ 2 files changed, 42 insertions(+)
+ create mode 100644 demo.txt
+bash-3.2$ git log
+[?1h=[33mcommit 09e277e6eebe3d9cdc657746535732f84d68f82b[m[m
+Author: Ritesh Kumar <riteshkumar.bhumca2012@gmail.com>[m
+Date:   Mon Apr 17 14:22:05 2017 +0530[m
+[m
+    Added demo.txt and modified Logs[m
+[m
+[33mcommit e488e71d711adf636081dda25fb0664df9c578b1[m[m
+Author: Ritesh Kumar <riteshkumar.bhumca2012@gmail.com>[m
+Date:   Mon Apr 17 14:19:49 2017 +0530[m
+[m
+    Started capturing log[m
+[K[?1l>bash-3.2$ git log --graphic
+fatal: unrecognized argument: --graphic
+bash-3.2$ echo "
+> git add <list of files>
+> git add --all
+> git add *.txt
+> git add docs/*.txt
+> git add docs/
+> git add "*.txt"
+>  #last one will add all txt files in whole project" >> demo.[K[K[K[K[Kdemo.txt
+bash-3.2$ cat demo.txt 
+It will be for demo
+
+git add <list of files>
+git add --all
+git add *.txt
+git add docs/*.txt
+git add docs/
+git add *.txt
+ #last one will add all txt files in whole project
+bash-3.2$ git add [K[K[K[Kstatus
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   Logs[m
+	[31mmodified:   demo.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+bash-3.2$ exit
+exit
+
+Script done on Mon Apr 17 14:24:50 2017
+Script started on Mon Apr 17 14:24:59 2017
+[?1034hbash-3.2$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   Logs[m
+	[31mmodified:   demo.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+bash-3.2$ git commit -a "Level one[K[K[K1 Finished in Git Real"
+fatal: Paths with -a does not make sense.
 bash-3.2$ 
