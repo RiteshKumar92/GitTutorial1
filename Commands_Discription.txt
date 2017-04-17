@@ -16,3 +16,11 @@ git log #for history
 git commit -m msg #commit your changes
 
 Done with Level1 in Git Real
+Started level2 in Git real
+git diff #use for unstaged differencs since last commit
+git diff --staged #use for staged differencs since last commit
+git reset HEAD filename #use for unstaginf files means reset the head to last commit
+git commit -a -m msg #use for skipping staging .i.e. it commmits the files without adding to staging area
+but it doesn't add new(untracked files
+it takes the all changes back to staging area in latest commit and reset all files to previous commit
+git reset --soft HEAD^
