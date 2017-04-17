@@ -32,3 +32,25 @@ git reset --hard HEAD^^ #undo last 2 commit and all changes
 started Sharing idea
 here we have added the link of repo Gittuorital to our local Git by #git remote add origin https://github.com/RiteshKumar92/GitTutorial1.git 
 also we can list the remote respos by this cmd #git remote -v
+so here we first use git pull <remote name> <branch name>
+and the we push the changes using git push -u origin master #here u stands for first time as remote and branch
+Working with Remote
+git remote add <name> <addr>
+git remote rm <name>
+git push -u <remote> <branch>
+git pull <remote> <branch>
+
+Don't do these after push
+moving files to stage area from a commit #git reset --soft HEAD^
+adding files to an eariler commit #git commit --amend -m new msg
+blowing all changes ince last commit #git reset --hard hEAD^
+
+Done with leve2 in Git real
+Started cloning and branching in level3 in Git real
+use #git clone <addr> # to clone the remote respo in local clone
+started Branching
+
+git branch <bname>
+git checkout <bname>
+git branch #list all branches
+git checkout -b <bname> #combination of 1 and 2 
