@@ -24,3 +24,11 @@ git commit -a -m msg #use for skipping staging .i.e. it commmits the files witho
 but it doesn't add new(untracked files
 it takes the all changes back to staging area in latest commit and reset all files to previous commit
 git reset --soft HEAD^
+git commit --amend -m "learnt the idea how to add a file in already done commit" 
+
+git reset --hard HEAD^ #undo last commit and all changes
+git reset --hard HEAD^^ #undo last 2 commit and all changes
+
+started Sharing idea
+here we have added the link of repo Gittuorital to our local Git by #git remote add origin https://github.com/RiteshKumar92/GitTutorial1.git 
+also we can list the remote respos by this cmd #git remote -v
