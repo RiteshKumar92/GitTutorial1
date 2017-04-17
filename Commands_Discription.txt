@@ -63,3 +63,5 @@ recursive mearge means Both have changed their Fields
 
 git branch -d <bname> #deltes a branch
 
+in case of merge fail edit the file with reqyuied changes and commit the changes anf go ahead
+Done with level 3 in Git real
