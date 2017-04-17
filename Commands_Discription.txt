@@ -65,3 +65,14 @@ git branch -d <bname> #deltes a branch
 
 in case of merge fail edit the file with reqyuied changes and commit the changes anf go ahead
 Done with level 3 in Git real
+understaing push and pull
+started level4 in Git real
+
+git pull work in 2 steps
+1. git fetch #it syncs our local clone with origing but doesn't update nay our local code
+2. git merge origin/master 
+
+git pull works as fwd or recursive merge
+if merge issue arise resolve the issue and go ahead with #git commit -a
+
+Done with level4 in Git real
